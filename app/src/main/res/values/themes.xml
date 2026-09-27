@@ -1,0 +1,6 @@
+<resources>
+    <!-- Basic theme: no action bar, since Compose draws its own UI -->
+    <style name="Theme.InstagramClone" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/ig_white</item>
+    </style>
+</resources>

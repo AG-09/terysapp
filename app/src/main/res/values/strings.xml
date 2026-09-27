@@ -1,0 +1,4 @@
+<resources>
+    <!-- App name shown under the icon on the home screen -->
+    <string name="app_name">Instagram Clone</string>
+</resources>

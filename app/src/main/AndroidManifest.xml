@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    AndroidManifest.xml
+    This is like the "ID card" of the app. Android reads this file
+    first to know: what is the app called, what screens (activities)
+    does it have, and which one opens first when the app is launched.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:label="Instagram Clone"
+        android:theme="@style/Theme.InstagramClone">
+
+        <!--
+            MainActivity is our ONE and ONLY screen container.
+            Inside it, we switch between "Login" and "Home" using
+            Compose state (see MainActivity.kt), instead of using
+            multiple separate Activities. This keeps things simple.
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <!-- This intent-filter marks MainActivity as the launcher icon -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

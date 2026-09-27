@@ -1,0 +1,8 @@
+<resources>
+    <!-- Simple color palette, loosely inspired by Instagram's look -->
+    <color name="ig_black">#FF000000</color>
+    <color name="ig_white">#FFFFFFFF</color>
+    <color name="ig_blue">#FF3897F0</color>
+    <color name="ig_gray">#FF8E8E8E</color>
+    <color name="ig_light_gray">#FFFAFAFA</color>
+</resources>
